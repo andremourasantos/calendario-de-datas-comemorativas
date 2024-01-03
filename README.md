@@ -1,51 +1,101 @@
 # Calendário de Datas Comemorativas para o Google Sheets (Apps Script)
 
-Crie e mantenha calendários de datas comemorativas para diversos clientes facilmente, aumente sua produtividade e simplifique o trabalho com a ajuda deste código para Google Sheets!
+Crie e mantenha um calendário de datas comemorativas para diversos clientes facilmente, aumente sua produtividade e simplifique o trabalho com a ajuda desta ferramenta para o Google Sheets!
 
 ---
 
 ## Demonstração 📅
 
-Com este código, é possível criar calendários, editar e adicionar datas, inserir observações pertinentes para cada data e organizá-las por ordem ascendente!
+Com a ferramenta de Calendário de Datas Comemorativas para o Google Sheets é possível criar calendários, editar e adicionar datas, inserir observações pertinentes para cada data e organizá-las facilmente com filtros!
 
 Veja o vídeo de demonstração de uso abaixo:
 
-![demonstração](/instruções/demonstração.webm)
+[![video-de-demonstração](/instruções/capa-demonstração.png)](/instruções/demonstração.webm)
 _[Baixar vídeo](/instruções/demonstração.webm)_
 
 ### Benefícios
 
-Com este código, você pode aumentar a sua produtividade e manter a consistência do seu trabalho dentre todos os seus clientes!
+Essa ferramenta ajuda você a aumentar a sua produtividade e manter a consistência no trabalho de todos os seus clientes! Além disso, veja os principais benefícios dessa ferramenta:
 
-- 🤩 Ferramenta fácil e intuitiva.
-- 🚀 Crie e mantenha diversos calendários diferentes em um único documento.
-- 🪄 Mantenha a consistência de layout e informações por todo o seu trabalho.
-- 📄 Facilidade para baixar a planilha como PDF e enviar para aprovação.
-- 🤝 Compartilhe acesso com seus colegas de trabalho para que eles também possam utilizar a ferramenta.
-- 🔧 Código sob licença de domínio público.
+- 🤩 Fácil e intuitiva.
+- 🚀 Diversos calendários em uma única planilha.
+- 🪄 Consistência de layout e informações.
+- 📄 Baixe como PDF facilmente.
+- 🤝 Compartilhe acesso com seus colegas de trabalho.
+- 🏅 Licença de domínio público.
   - Um conhecimento básico de JavaScript é recomendado para realizar alterações no código.
+
+---
+
+## Utilizando a ferramenta 🪄
+
+O Calendário de Datas Comemorativas conta com diversas funções úteis e intuitivas para que você possa começar a trabalhar imediatamente após a configuração inicial! Veja abaixo os primeiros passos:
+
+### Primeiro passo: Adicionando um calendário
+
+Para começar, primeiramente precisamos criar um novo calendário (planilha) no documento! Mas você não precisa se preocupar, a ferramenta dá conta de todo o processo!
+
+Veja como criar um novo calendário no documento:
+
+![criar-novo-calendario](/instruções/criar-novo-calendario.gif)
+
+Você também pode seguir as instruções abaixo:
+1. No menu superior, clique em "Calendário";
+1. Dentre as opções disponíveis, clique em "Criar novo calendário de datas";
+1. Siga as instruções apresentadas para criar um novo calendário;
+1. Ao final do processo, você terá uma nova página em sua planilha com o nome escolhido para o calendário.
+
+### Segundo passo: Adicionando uma nova data comemorativa
+
+Agora que já temos um calendário pronto, basta adicionarmos as datas que precisamos. É recomendado seguir as seguintes instruções para adicionar novas datas (linhas) ao calendário:
+
+![adicionar-data](/instruções/adicionar-data.gif)
+
+Você também pode seguir as instruções abaixo:
+1. No menu superior, clique em "Calendário";
+1. Dentre as opções disponíveis, clique em "Adicionar data";
+1. Uma nova linha será adicionada à tabela. Preencha-a com as informações necessárias;
+    - Evite adicionar uma linha manualmente, pois assim você terá de configurar as dimensões e funcionalidades.
+    - Atenção: Certifique-se de que todas as datas estão no mesmo ano, caso contrário, a organização automática poderá não funcionar como esperado.
+
+### Terceiro passo: Organizando as datas no calendário
+
+Por fim, com todas as datas adicionadas, podemos agora reorganizar o calendário, para que as datas sejam exibidas de maneira ascendente, isso facilita a visualização!
+
+Veja como é simples organizar um calendário:
+
+![organizar-datas](/instruções/organizar-datas.gif)
+
+Você também pode seguir as instruções abaixo:
+1. No menu superior, clique em "Calendário";
+1. Dentre as opções disponíveis, clique em "Organizar datas do calendário";
+1. Aguarde enquanto as datas são organizadas em ordem ascendente.
+
+> Você também pode usar os filtros da primeira linha da planilha para filtrar ou ordenar a exibição da maneira que preferir.
 
 ---
 
 ## Instruções de uso em projeto único 📝
 
-Este código pode ser adicionado manualmente a um novo documento ou a um documento já existente de maneira simples! Seguindo as instruções abaixo, você poderá começar a utilizar essa ferramenta em instantes.
+Esta ferramenta pode ser adicionada manualmente a um novo documento ou a um documento já existente de maneira simples!
 
-Veja o vídeo de instrução abaixo:
+A ferramenta é composta por um único código de Apps Script (```mains.js```), uma linguagem de programação feita para os serviços do Google, como a suíte do Google Workspace (Docs, Slides, Sheets e Forms).
 
-![instrução](/instruções/passo-a-passo.webm)
+Seguindo as instruções abaixo, você poderá começar a utilizar essa ferramenta em instantes:
+
+[![video-passo-a-passo](/instruções/capa-passo-a-passo.png)](/instruções/passo-a-passo.webm)
 _[Baixar vídeo](/instruções/passo-a-passo.webm)_
 
-> Caso você tenha várias contas do Google conectadas, recomendo que abra uma nova Janela Anônima e conecte apenas a uma conta do Google.
+> Caso você tenha várias contas do Google conectadas, recomendo que abra uma nova Janela Anônima e conecte apenas uma conta do Google.
 
 ### Passo a passo
 
 Acompanhe o passo a passo com as instruções por escrito abaixo:
 
 1. Crie um novo documento no [Google Sheets 🡕](sheets.new);
-    - Caro queira utilizar em um documento já existente, pule para o próximo passo.
+    - Caso queira utilizar em um documento já existente, pule para o próximo passo.
 1. No menu superior, clique em "Extensões", depois, clique em "Apps Script";
-1. Na nova aba, você deve encontrar o Apps Script aberto já com seguinte código:
+1. Na nova aba, você deve encontrar o Apps Script aberto já com o seguinte código:
     ```JavaScript
     function myFunction() {
       
@@ -77,46 +127,4 @@ Pronto, seu projeto está configurado corretamente e já pode ser utilizado!
 
 ---
 
-## Utilizando o código 🪄
-
-Agora que seu projeto já está configurado, basta começar a utilizá-lo! Veja abaixo como utilizar as principais funcionalidades do código.
-
-### Primeiro passo: Adicionando um calendário
-
-Para começar, primeiramente precisamos criar um novo calendário! Veja como abaixo:
-
-![criar-novo-calendario](/instruções/criar-novo-calendario.gif)
-
-Você também pode seguir as instruções abaixo:
-1. No menu superior, clique em "Calendário";
-1. Dentre as opções disponíveis, clique em "Criar novo calendário de datas";
-1. Siga as instruções apresentadas para criar um novo calendário;
-1. Ao final do processo, você terá uma nova página em sua planilha com o nome escolhido para o calendário.
-
-### Segundo passo: Adicionando uma nova data comemorativa
-
-Agora que já temos um calendário pronto, basta adicionarmos as datas que precisamos:
-
-![adicionar-data](/instruções/adicionar-data.gif)
-
-Você também pode seguir as instruções abaixo:
-1. No menu superior, clique em "Calendário";
-1. Dentre as opções disponíveis, clique em "Adicionar data";
-1. Uma nova linha será adicionada à tabela. Preencha-a com as informações necessárias;
-    - Evite adicionar uma linha manualmente, pois assim você terá de configurar as dimensões e funcionalidades.
-    - Atenção: Certifique-se de que todas as datas estão no mesmo ano, caso contrário, a organização automática poderá não funcionar como esperado.
-
-### Terceiro passo: Organizando as datas no calendário
-
-Por fim, com todas as datas adicionadas, podemos agora reorganizar o calendário, para que as datas sejam exibidas de maneira ascendente:
-
-![organizar-datas](/instruções/organizar-datas.gif)
-
-Você também pode seguir as instruções abaixo:
-1. No menu superior, clique em "Calendário";
-1. Dentre as opções disponíveis, clique em "Organizar datas do calendário";
-1. Aguarde enquanto as datas são organizadas em ordem ascendente.
-
----
-
-👨🏽‍💻 Criado por [André Moura Santos 🡕](https://andremourasantos.com.br), 2024, licença MIT.
+👨🏽‍💻 Criado por [André Moura Santos 🡕](https://andremourasantos.com.br/?utm_source=github&utm_medium=repositories&utm_campaign=calendario-de-datas-comemorativas), 2024, licença MIT.
